@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+class Main {
+public static void main(String[] args){
+double a,n;
+Scanner entrada = new Scanner(System.in);
+double raio = entrada.nextDouble();
+    DecimalFormat formatador = new DecimalFormat("0.0000");
+  n = 3.14159;
+  a = n *(raio * raio); 
+    System.out.println("A = "+ formatador.format(a));
+
+
+}
+}
