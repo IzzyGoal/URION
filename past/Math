@@ -14,4 +14,3 @@ opt = Math.sqrt(op);
     System.out.println(formatador.format(opt));
 }
 }
-
